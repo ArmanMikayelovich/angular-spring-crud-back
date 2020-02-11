@@ -1,0 +1,1 @@
+mvn clean package spring-boot:repackage && heroku deploy:jar target/angular-spring-crud-1.0-SNAPSHOT.jar --app ng-sb-back-end
